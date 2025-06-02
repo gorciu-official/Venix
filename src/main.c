@@ -1,8 +1,8 @@
 #include <types.h>
 #include <drivers/video.h>
 
-int main() {
+void main() {
     printk("\033[32mVenix\033[0m");
     printk(" version: 1.0.0");
-    return 0;
+    return;
 }
