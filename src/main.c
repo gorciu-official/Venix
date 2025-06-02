@@ -2,6 +2,7 @@
 #include <drivers/video.h>
 
 int main() {
-    print('');
+    printk("\033[32mVenix\033[0m");
+    printk(" version: 1.0.0");
     return 0;
 }
